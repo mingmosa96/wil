@@ -1,0 +1,213 @@
+body {
+  font-family: 'pp_hattonmedium';
+  margin: 0;
+  padding: 0;
+  color: #ff83c1;;
+}
+
+.wrapper {
+  max-width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.header {
+  background: linear-gradient(#40b2f1, #c250f0);
+  width: 100%;
+  height: 105px;
+}
+
+.subheader {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+a.subheader{
+  float: right;
+}
+
+h1 .subheader {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.container p {
+  text-align: center;
+}
+
+.row {
+  max-width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.row img {
+  width: 80%;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  display: inline-grid;
+  background-color: #d1d0d0;
+  width: 300px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 90%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+
+.footer img {
+  width: 25px;
+  height: 25px;
+  /* margin: 15px 20px 0 0; */
+}
+
+.footer a {
+  font-size: 10pt;
+  margin-right: 1rem;
+}
+
+.footer p {
+  margin-left: 900px;
+  font-size: 10pt;
+  font-size: 200;
+}
+
+.footer span {
+  font-weight: 700;
+}
+
+.logo {
+  float: left;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.name {
+  float: right;
+  font-size: 18pt;
+  margin: 10px 50px;
+  color: #ff83c1;
+  font-weight: bold;
+}
+
+h1 a p {
+  color: #ff83c1;
+}
+
+h1 {
+  font-size: 40pt;
+  font-weight: 500;
+  text-align: center;
+}
+
+a,
+p {
+  font-size: 18pt;
+  text-decoration: none;
+  color: #ff83c1;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  color: white;
+  size: 5px;
+}
+
+image {
+  width: 70%;
+}
+
+/* mobile screen */
+@media (max-width: 768px) {
+
+
+  .subheader a{
+    float: right;
+  }
+
+  .banner{
+    padding-top: -10px;
+  }
+
+  .banner img {
+    max-width: 100%;
+  }
+
+  .menu-item {
+
+    width: 90px;
+    height: 110px;
+    margin: 10px;
+  }
+
+  .footer {
+    height: 40px;
+  }
+
+  .footer img {
+    width: 10px;
+    height: 10px;
+    margin: 0 6px 0 15px;
+  }
+
+  .footer a {
+    font-size: 6pt;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+
+ 
+
+  h1 {
+    font-size: 18pt;
+    font-weight: 400;
+  }
+
+  a{
+    font-size: 9pt;
+  }
+  p {
+    font-size: 6pt;
+  }
+
+}
