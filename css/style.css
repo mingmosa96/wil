@@ -13,19 +13,45 @@ body {
 .header {
   background: linear-gradient(#40b2f1, #c250f0);
   width: 100%;
-  height: 105px;
+  height: 125px;
 }
 
-.subheader {
+.subheader1 {
   display: block;
   width: 100%;
   height: 50%;
   padding-top: 1rem;
 }
-.subheader img{
+.subheader1 img{
   width: 50px;
   height: 50px;
 }
+
+.subheader2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.subheader2 p{
+  text-align: center;
+  font-size: 13pt;
+  margin-top: -15px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+.menuicon{
+  margin-top: -45px;
+  margin-left: 620px;
+}
+
+.menuicon img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+ 
 .logo {
   float: left;
   max-width: 20%;
@@ -43,12 +69,12 @@ body {
   margin-top: -57px;
   margin-right: 33px;
 }
-.subheader a{
+.subheader1 a{
   font-size: 15pt;
   text-align: center;
 }
 
-.subheader h1 {
+.subheader1 h1 {
   text-align: center;
   font-size: 29pt;
 }
@@ -61,11 +87,25 @@ body {
   text-align: center;
 }
 
-.row {
-  max-width: 50%;
+.row1 {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 50%;
 }
 
-.row img {
+.row1 br{
+  line-height: 0.5;
+}
+.row2 {
+  float:right;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-left: 1050px;
+}
+
+.row2 img {
   width: 80%;
 }
 
@@ -109,7 +149,7 @@ body {
 .footer img {
   width: 25px;
   height: 25px;
-  /* margin: 15px 20px 0 0; */
+  margin: -35px 40px 0 30px;
 }
 
 .footer a {
@@ -175,15 +215,39 @@ image {
 /* mobile screen */
 @media (max-width: 768px) {
 
+  .header{
+    height: 70px;
+  }
 
-  .subheader {
+  .logo{
+    margin-left:33px;
+  }
+
+  .subheader1 {
     float: right;
     margin: 0 15px;
   }
-  .subheader img{
+  .subheader1 img{
     width: 30px;
     height: 30px;
   }
+
+  .subheader1 h1 {
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  .subheader1 a{
+    font-size: 10pt;
+    text-align: center;
+  }
+  .subheader2 p{
+    font-size: 4pt;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
   .info{
     margin-right: 100px;
     margin-top: -6px;
@@ -192,15 +256,16 @@ image {
     margin-top: -47px;
     margin-right: 5px;
   }
-  .subheader a{
-    font-size: 10pt;
-    text-align: center;
+  .menuicon{
+    margin-top: 5px;
+    margin-left: 55px;
+  }
+
+  .menuicon img{
+    width: 8px;
+    height: 8px;
   }
   
-  .subheader h1 {
-    text-align: center;
-    font-size: 20pt;
-  }
 
   .banner{
     padding-top: -10px;
@@ -210,21 +275,18 @@ image {
     max-width: 100%;
   }
 
-  .menu-item {
-
-    width: 90px;
-    height: 110px;
-    margin: 10px;
+  .footer{
+    margin-left: 20px;
   }
 
-  .footer {
-    height: 50px;
-  }
+ .row2{
+  margin-left: 50px;
+ }
 
   .footer img {
     width: 10px;
     height: 10px;
-    margin: 0 6px 0 15px;
+    margin: -50px 9px 0 18px;
   }
 
   .footer a {
