@@ -40,7 +40,7 @@ body {
   font-size: 13pt;
   margin-top: -15px;
   margin-left: 50px;
-  margin-right: 80px;
+  margin-right: 200px;
 }
 .menuicon{
   margin-top: -20px;
@@ -126,10 +126,11 @@ body {
 
 
 .footer {
+  background-color: #263570;
   display: flex;
   align-items: center;
   width: 100%;
-  margin-left: 33px;
+  
 }
 
 
@@ -142,6 +143,7 @@ body {
 .footer a {
   font-size: 10pt;
   margin-right: 1rem;
+  margin-left: 33px;
 }
 
 .footer p {
@@ -261,9 +263,6 @@ image {
     max-width: 100%;
   }
 
-  .footer{
-    margin-left: 20px;
-  }
 
  .row2{
   margin-right: 30px;
@@ -277,6 +276,7 @@ image {
 
   .footer a {
     font-size: 6pt;
+    margin-left: 20px;
   }
 
  
